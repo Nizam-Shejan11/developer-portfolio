@@ -11,6 +11,10 @@ h2{
 .orange-color{
     color: orange;
 }
+section{
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 100PX;
@@ -26,9 +30,27 @@ h2{
 .link-button{
     text-decoration: none;
     background-color: orange;
-    background-image: linear-gradient(orange, purple);
+    background-image: linear-gradient(orange, rgb(135, 27, 135));
     padding: 10px 20px;
     color: white;
     font-weight: 900;
     border-radius: 5px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px; border-radius: 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+    border-bottom: 3px solid rgb(199, 108, 199);
+}
+#baby-stack-developer{
+    border-left: 7px solid tomato;
+    border-bottom: 3px solid rgb(192, 92, 192);
+}
+footer{
+    text-align: center;
 }
