@@ -1,59 +1,72 @@
-body{
+body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;} 
-h1{
+h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
+    color: rgb(138, 3, 138);
 }
-.salam{
-    font-size: 40px;
-}
-h2{
+h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
 }
-.orange-color{
+.orange-color {
     color: orange;
 }
-section{
+section {
     margin-top: 0px;
     margin-bottom: 100px;
 }
-.flexible-container{
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.flexible-container {
     display: flex;
     margin-bottom: 100PX;
 }
-.half-width{
+.half-width {
     width: 50%;
     padding:5%;
 }
-.half-width img{
+.half-width img {
     width: 100%;
     margin-top: 50px;
 }
-.link-button{
+.link-button {
     text-decoration: none;
     background-color: orange;
     background-image: linear-gradient(orange, rgb(135, 27, 135));
     padding: 10px 20px;
     color: white;
-    font-weight: 900;
+    font-weight: 600;
     border-radius: 5px;
 }
-.experience-item{
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 30px; border-radius: 15px;
     box-shadow: 10px 10px 30px gray;
 }
-#full-stack-developer{
+#full-stack-developer {
     border-left: 7px solid tomato;
-    border-bottom: 3px solid rgb(199, 108, 199);
+    border-bottom: 5px solid rgb(199, 108, 199);
 }
-#baby-stack-developer{
+#baby-stack-developer {
     border-left: 7px solid tomato;
-    border-bottom: 3px solid rgb(192, 92, 192);
+    border-bottom: 5px solid rgb(192, 92, 192);
 }
-footer{
+footer p {
     text-align: center;
 }
