@@ -1,0 +1,34 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;} 
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+    margin-bottom: 100PX;
+}
+.half-width{
+    width: 50%;
+    padding:5%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(orange, purple);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
